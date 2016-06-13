@@ -1,0 +1,23 @@
+name: playground
+version: 0.0.1
+description: A starting point for Corsac projects.
+#homepage: https://example.com
+#author: author <email@example.com>
+
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+
+dependencies:
+  corsac_bootstrap:
+    git: https://github.com/corsac-dart/bootstrap.git
+  corsac_kernel:
+    git: https://github.com/corsac-dart/kernel.git
+  corsac_dal:
+    git: https://github.com/corsac-dart/dal.git
+  corsac_console:
+    git: https://github.com/corsac-dart/console.git
+  corsac_mysql:
+    git: https://github.com/corsac-dart/mysql.git
+
+dev_dependencies:
+  test: "^0.12.6+1"
